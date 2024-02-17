@@ -1,70 +1,77 @@
-
-
 /* styles.css */
 
 body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    background-image: url('images/img1.jpg'); 
-    background-size: cover;
-    background-position: center; 
-  }
-  
-  
-  .container {
-    max-width: 800px;
-    margin: 50px auto;
-    text-align: center;
-  }
-  
-  h1 {
-    margin-bottom: 20px;
-    font: 100;
-    
-  }
-  
-  .dropdown {
-    position: relative;
-    display: inline-block;
-    margin: 10px;
-    font-size: xx-large;
-  }
-  
-  .dropbtn {
-    background-color: #3498db;
-    color: white;
-    padding: 10px 15px;
-    font-size: 16px;
-    border: none;
-    cursor: pointer;
-  }
-  
-  .dropdown-content {
-    display: none;
-    position: absolute;
-    background-color: #f9f9f9;
-    min-width: 160px;
-    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
-    z-index: 1;
-  }
-  
-  .dropdown-content a {
-    color: black;
-    padding: 12px 16px;
-    text-decoration: none;
-    display: block;
-  }
-  
-  .dropdown-content a:hover {
-    background-color: #f1f1f1;
-  }
-  
-  .dropdown:hover .dropdown-content {
-    display: block;
-  }
-  
-  .dropdown:hover .dropbtn {
-    background-color: #2980b9;
-  }
-  
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-image: url('images/img1.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+.container {
+  max-width: 800px;
+  margin: 250px auto;
+  text-align: center;
+}
+
+h1 {
+  margin-bottom: 20px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  font-size: 2.5em; /* Adjusted font size for emphasis */
+  color: #72229a; /* Adjusted color for better contrast */
+  text-transform: uppercase; /* Optional: Uppercase text */
+  letter-spacing: 2px; /* Optional: Add letter spacing for a modern look */
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1); /* Optional: Add subtle text shadow */
+  max-width: 2000px; /* Adjust the value based on your desired width */
+  margin: 10px auto;
+  text-align: center;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+  margin: 10px; /* Increased margin for better spacing */
+  font-size: larger; /* Changed from xx-large for better proportion */
+}
+
+.dropbtn {
+  background-color: #3498db;
+  color: white;
+  padding: 12px 18px; /* Adjusted padding for better proportion */
+  font-size: 18px; /* Adjusted font size for better hierarchy */
+  border: none;
+  cursor: pointer;
+  font-weight: 600; /* Added font weight for emphasis */
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #1a9473;
+  min-width: 120px; /* Adjusted min-width for better readability */
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+  border-radius: 4px; /* Added border-radius for a softer look */
+}
+
+.dropdown-content a {
+  color: #333; /* Changed from black for better contrast */
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  font-weight: 500; /* Adjusted font weight for hierarchy */
+}
+
+.dropdown-content a:hover {
+  background-color: #f1f1f1;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown:hover .dropbtn {
+  background-color: #2980b9;
+}
