@@ -1,0 +1,35 @@
+.spot-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); /* Two columns */
+  grid-gap: 20px; /* Adjust gap as needed */
+}
+
+.location {
+  border: 1px solid black;
+  padding: 10px;
+}
+
+.location-spots {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.spot-columns {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); /* Two columns */
+  grid-gap: 5px; /* Adjust gap as needed */
+}
+
+.spot {
+  width: 3em;
+  height: 20px;
+  border: 1px solid black;
+}
+
+.available {
+  background-color: green;
+}
+
+.occupied {
+  background-color: red;
+}
