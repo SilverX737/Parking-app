@@ -4,7 +4,8 @@ body {
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
-  background-image: url('images/img1.jpg');
+  /*background-image: url('images/img1.jpg');*/
+  background-color: #1a9473;
   background-size: cover;
   background-position: center;
 }
@@ -19,14 +20,15 @@ h1 {
   margin-bottom: 20px;
   font-family: 'Montserrat', sans-serif;
   font-weight: 700;
-  font-size: 2.5em; /* Adjusted font size for emphasis */
-  color: #72229a; /* Adjusted color for better contrast */
+  font-size: 70px; /* Adjusted font size for emphasis */
   text-transform: uppercase; /* Optional: Uppercase text */
-  letter-spacing: 2px; /* Optional: Add letter spacing for a modern look */
+  letter-spacing: 1px; /* Optional: Add letter spacing for a modern look */
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1); /* Optional: Add subtle text shadow */
   max-width: 2000px; /* Adjust the value based on your desired width */
   margin: 10px auto;
   text-align: center;
+  transform: translateY(-50%);
+  color: #fff;
 }
 
 .dropdown {
@@ -34,13 +36,15 @@ h1 {
   display: inline-block;
   margin: 10px; /* Increased margin for better spacing */
   font-size: larger; /* Changed from xx-large for better proportion */
+  border-style: solid;
+  border-color: #1a5f4c;
 }
 
 .dropbtn {
-  background-color: #3498db;
+  background-color: #1a9473;
   color: white;
   padding: 12px 18px; /* Adjusted padding for better proportion */
-  font-size: 18px; /* Adjusted font size for better hierarchy */
+  font-size: 30px; /* Adjusted font size for better hierarchy */
   border: none;
   cursor: pointer;
   font-weight: 600; /* Added font weight for emphasis */
@@ -50,9 +54,11 @@ h1 {
   display: none;
   position: absolute;
   background-color: #1a9473;
-  min-width: 120px; /* Adjusted min-width for better readability */
+  width: 243px; /* Adjusted min-width for better readability */
   box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
   z-index: 1;
+  border-style: solid;
+  border-color: #1a5f4c;
   border-radius: 4px; /* Added border-radius for a softer look */
 }
 
