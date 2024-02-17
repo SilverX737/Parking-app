@@ -1,10 +1,16 @@
 
 
+/* styles.css */
+
 body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
+    background-image: url('images/img1.jpg'); 
+    background-size: cover;
+    background-position: center; 
   }
+  
   
   .container {
     max-width: 800px;
@@ -14,7 +20,8 @@ body {
   
   h1 {
     margin-bottom: 20px;
-    font-size: 100;
+    font: 100;
+    
   }
   
   .dropdown {
