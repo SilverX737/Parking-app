@@ -1,7 +1,7 @@
 .spot-container {
   display: grid;
   grid-template-columns: repeat(2, 1fr); /* Two columns */
-  grid-gap: 20px; /* Adjust gap as needed */
+  grid-gap: 50px; /* Adjust gap as needed */
 }
 
 .location {
@@ -11,19 +11,22 @@
 
 .location-spots {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: repeat(35, 2fr);
+  row-gap: 50px;
 }
 
 .spot-columns {
   display: grid;
   grid-template-columns: repeat(2, 1fr); /* Two columns */
-  grid-gap: 5px; /* Adjust gap as needed */
+  grid-gap: 150px; /* Adjust gap as needed */
+  column-gap: 100px;
 }
 
 .spot {
-  width: 3em;
-  height: 20px;
-  border: 1px solid black;
+  width: 2em;
+  height: 50px;
+  border: 2px solid black;
+  gap: 50px;
 }
 
 .available {
