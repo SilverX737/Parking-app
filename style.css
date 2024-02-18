@@ -1,7 +1,7 @@
 .spot-container {
   display: grid;
-  grid-template-columns: repeat(2, 1fr); /* Two columns */
-  grid-gap: 50px; /* Adjust gap as needed */
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 50px;
 }
 
 .location {
@@ -17,8 +17,8 @@
 
 .spot-columns {
   display: grid;
-  grid-template-columns: repeat(2, 1fr); /* Two columns */
-  grid-gap: 150px; /* Adjust gap as needed */
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 150px;
   column-gap: 100px;
 }
 
