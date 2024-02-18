@@ -116,13 +116,10 @@ img {
 
 .location-spots {
   display: grid;
-  grid-template-columns: repeat(6, 1fr); 
-  grid-gap: 50px; 
-  row-gap: 0px; 
-
+  grid-template-columns: repeat(6, 1fr);
+  grid-gap: 50px;
+  row-gap: 0px;
 }
-
-
 
 .spot-columns {
   display: grid;
