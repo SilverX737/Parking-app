@@ -48,6 +48,7 @@ function randomlyColorSpotsForParkingLot1(container, totalSpots) {
   }
 
   // Update the number of non-red spots for parking lot 1
+  spotsLeftParking1.style.fontSize = "30px";
   spotsLeftParking1.textContent = `Theres ${nonRedSpotsCounter} spots left here!`;
 }
 
@@ -83,6 +84,7 @@ function randomlyColorSpotsForParkingLot2(container, totalSpots) {
   }
 
   // Update the number of non-red spots for parking lot 2
+  spotsLeftParking2.style.fontSize = "30px";
   spotsLeftParking2.textContent = `Theres ${nonRedSpotsCounter} spots left here!`;
 }
 
@@ -118,6 +120,7 @@ function randomlyColorSpotsForParkingLot3(container, totalSpots) {
   }
 
   // Update the number of non-red spots for parking lot 3
+  spotsLeftParking3.style.fontSize = "30px";
   spotsLeftParking3.textContent = `Theres ${nonRedSpotsCounter} spots left here!`;
 }
 
