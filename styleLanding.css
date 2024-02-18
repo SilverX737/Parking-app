@@ -98,12 +98,15 @@ img {
   background-color: #2980b9;
 }
 
-.spot-container {
-  padding: 5em;
-  padding-left: 0;
+.spot-container1,
+.spot-container2,
+.spot-container3 {
+  padding: 25em;
+  padding-left: 5em;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
+  height: 25vh;
 }
 
 .location {
@@ -137,4 +140,10 @@ img {
 
 .occupied {
   background-color: red;
+}
+
+.hidden-1,
+.hidden-2,
+.hidden-3 {
+  display: none;
 }
