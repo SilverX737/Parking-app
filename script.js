@@ -40,3 +40,41 @@ locations.forEach((location) => {
     randomlyColorSpots(spotsContainer, totalSpots); // Randomly color spots in spots container
   }
 });
+
+const bridgeParking = document.querySelector(`#parking1`);
+const bridgeLotA = document.querySelector(`#parking2`);
+const alumEngineer = document.querySelector(`#parking3`);
+const spotContainer1 = document.querySelector(`.spot-container1`);
+const spotContainer2 = document.querySelector(`.spot-container2`);
+const spotContainer3 = document.querySelector(`.spot-container3`);
+
+// JavaScript to handle smooth scrolling when clicking on links
+document.addEventListener("DOMContentLoaded", function () {
+  bridgeParking.addEventListener("click", function (e) {
+    e.preventDefault();
+    spotContainer1.classList.remove(`hidden-1`);
+    spotContainer2.classList.add(`hidden-2`);
+    spotContainer3.classList.add(`hidden-3`);
+    spotContainer1.scrollIntoView({ behavior: "smooth" });
+  });
+});
+
+document.addEventListener("DOMContentLoaded", function () {
+  bridgeLotA.addEventListener("click", function (e) {
+    e.preventDefault();
+    spotContainer1.classList.add(`hidden-1`);
+    spotContainer2.classList.remove(`hidden-2`);
+    spotContainer3.classList.add(`hidden-3`);
+    spotContainer2.scrollIntoView({ behavior: "smooth" });
+  });
+});
+
+document.addEventListener("DOMContentLoaded", function () {
+  alumEngineer.addEventListener("click", function (e) {
+    e.preventDefault();
+    spotContainer1.classList.add(`hidden-1`);
+    spotContainer2.classList.add(`hidden-2`);
+    spotContainer3.classList.remove(`hidden-3`);
+    spotContainer3.scrollIntoView({ behavior: "smooth" });
+  });
+});
