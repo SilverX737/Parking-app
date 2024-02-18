@@ -1,10 +1,10 @@
 /* styles.css */
 
+/* Common styles for all screen sizes */
 body {
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
-  /*background-image: url('images/img1.jpg');*/
   background-color: #1a9473;
   background-size: cover;
   background-position: center;
@@ -20,11 +20,11 @@ h1 {
   margin-bottom: 20px;
   font-family: 'Montserrat', sans-serif;
   font-weight: 700;
-  font-size: 70px; /* Adjusted font size for emphasis */
-  text-transform: uppercase; /* Optional: Uppercase text */
-  letter-spacing: 1px; /* Optional: Add letter spacing for a modern look */
-  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1); /* Optional: Add subtle text shadow */
-  max-width: 2000px; /* Adjust the value based on your desired width */
+  font-size: 70px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+  max-width: 2000px;
   margin: 10px auto;
   text-align: center;
   transform: translateY(-50%);
@@ -34,8 +34,8 @@ h1 {
 .dropdown {
   position: relative;
   display: inline-block;
-  margin: 10px; /* Increased margin for better spacing */
-  font-size: larger; /* Changed from xx-large for better proportion */
+  margin: 10px;
+  font-size: larger;
   border-style: solid;
   border-color: #1a5f4c;
 }
@@ -43,31 +43,31 @@ h1 {
 .dropbtn {
   background-color: #1a9473;
   color: white;
-  padding: 12px 18px; /* Adjusted padding for better proportion */
-  font-size: 30px; /* Adjusted font size for better hierarchy */
+  padding: 12px 18px;
+  font-size: 30px;
   border: none;
   cursor: pointer;
-  font-weight: 600; /* Added font weight for emphasis */
+  font-weight: 600;
 }
 
 .dropdown-content {
   display: none;
   position: absolute;
   background-color: #1a9473;
-  width: 243px; /* Adjusted min-width for better readability */
+  width: 243px;
   box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
   z-index: 1;
   border-style: solid;
   border-color: #1a5f4c;
-  border-radius: 4px; /* Added border-radius for a softer look */
+  border-radius: 4px;
 }
 
 .dropdown-content a {
-  color: #333; /* Changed from black for better contrast */
+  color: #333;
   padding: 12px 16px;
   text-decoration: none;
   display: block;
-  font-weight: 500; /* Adjusted font weight for hierarchy */
+  font-weight: 500;
 }
 
 .dropdown-content a:hover {
@@ -80,4 +80,60 @@ h1 {
 
 .dropdown:hover .dropbtn {
   background-color: #2980b9;
+}
+
+/* Media queries for responsiveness */
+
+/* Tablet */
+@media screen and (max-width: 768px) {
+  .container {
+    margin: 150px auto; /* Adjusted margin for better positioning on tablets */
+  }
+
+  h1 {
+    font-size: 50px; /* Adjusted font size for tablets */
+  }
+
+  .dropdown {
+    margin: 5px; /* Adjusted margin for better spacing on tablets */
+  }
+
+  .dropbtn {
+    font-size: 24px; /* Adjusted font size for tablets */
+  }
+
+  .dropdown-content {
+    width: 200px; /* Adjusted width for better readability on tablets */
+  }
+
+  .dropdown-content a {
+    font-size: 16px; /* Adjusted font size for tablets */
+  }
+}
+
+/* Mobile */
+@media screen and (max-width: 480px) {
+  .container {
+    margin: 100px auto; /* Adjusted margin for better positioning on mobile */
+  }
+
+  h1 {
+    font-size: 40px; /* Adjusted font size for mobile */
+  }
+
+  .dropdown {
+    margin: 3px; /* Adjusted margin for better spacing on mobile */
+  }
+
+  .dropbtn {
+    font-size: 20px; /* Adjusted font size for mobile */
+  }
+
+  .dropdown-content {
+    width: 150px; /* Adjusted width for better readability on mobile */
+  }
+
+  .dropdown-content a {
+    font-size: 14px; /* Adjusted font size for mobile */
+  }
 }
