@@ -21,7 +21,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: flex-start;
-  gap: 10em;
+  gap: 6em;
  }
  
  .different-section {
