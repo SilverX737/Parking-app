@@ -101,12 +101,12 @@ img {
 .spot-container1,
 .spot-container2,
 .spot-container3 {
-  padding: 25em;
+  padding: 5em;
   padding-left: 5em;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  height: 25vh;
+  height: 100vh;
 }
 
 .location {
@@ -116,13 +116,17 @@ img {
 
 .location-spots {
   display: grid;
-  grid-template-columns: repeat(35, 2fr);
-  row-gap: 50px;
+  grid-template-columns: repeat(6, 1fr); 
+  grid-gap: 50px; 
+  row-gap: 0px; 
+
 }
+
+
 
 .spot-columns {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: repeat(6, 1fr);
   grid-gap: 150px;
   column-gap: 100px;
 }
