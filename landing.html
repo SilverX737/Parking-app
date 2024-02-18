@@ -3,23 +3,50 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Parking Options</title>
+    <title>Student Parking Options</title>
     <link rel="stylesheet" href="styleLanding.css" />
   </head>
+
   <body>
-    <div class="container">
-      <h1>Find Your Parking</h1>
-      <div class="dropdown">
-        <button class="dropbtn">Select Parking</button>
-        <div class="dropdown-content">
-          <a href="index.html" id="parking1">Leddy Parking</a>
-          <a href="#" id="parking2">Assumption Parking</a>
-          <a href="#" id="parking3">CAW Parking</a>
-          <a href="#" id="parking3">University Visitor Parking</a>
+    <div class="green-section">
+      <div class="container">
+        <h1>Find Your Parking</h1>
+        <div class="dropdown">
+          <button class="dropbtn">Select Parking</button>
+          <div class="dropdown-content">
+            <a href="#" id="parking1">Bridge Parking</a>
+            <a href="#" id="parking2">Bridge Lot A</a>
+            <a href="#" id="parking3">Alumni Hall & Engineering/a>
+          </div>
         </div>
+      </div>
+      <div class="img">
+        <img src="Images/carPicCopy.png" alt="" />
       </div>
     </div>
 
+    <div class="different-section">
+      <div class="spot-container hidden-1" id="location1-container">
+        <div class="location1">
+          <h3>Location 1</h3>
+          <div class="location-spots" id="location1"></div>
+        </div>
+      </div>
+
+      <div class="spot-container hidden-2" id="location2-container">
+        <div class="location2">
+          <h3>Location 2</h3>
+          <div class="location-spots" id="location2"></div>
+        </div>
+      </div>
+
+      <div class="spot-container hidden-3" id="location3-container">
+        <div class="location3">
+          <h3>Location 3</h3>
+          <div class="location-spots" id="location3"></div>
+        </div>
+      </div>
+    </div>
     <script src="script.js"></script>
   </body>
 </html>

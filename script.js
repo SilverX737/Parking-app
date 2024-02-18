@@ -27,11 +27,16 @@ function randomlyColorSpots(container, totalSpots) {
   }
 }
 
-// Example usage:
-const totalSpots = 100;
+const totalSpots = 50;
 const locations = ["location1", "location2", "location3"];
 
 locations.forEach((location) => {
-  const container = document.getElementById(location);
-  randomlyColorSpots(container, totalSpots);
+  const containerId = location + "-container"; // Generate container ID
+  const container = document.getElementById(containerId); // Get container element
+  const spotsContainer = document.getElementById(location); // Get spots container element
+
+  if (container && spotsContainer) {
+    // Check if both containers exist
+    randomlyColorSpots(spotsContainer, totalSpots); // Randomly color spots in spots container
+  }
 });
