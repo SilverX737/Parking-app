@@ -1,14 +1,14 @@
 # Parking-app
-Inspiration
+Inspiration: 
 We wanted to solve a problem that we as UWindsor's students face on a daily basis, one of these problems is locating parking around campus. Students come to the university at different times and have to go to different spots around campus, students dont know where parking is available and due to the parking restrictions around campus (staff only parking.etc), finding a parking spot is not as easy as it should be. So we made it our mission over the past 24 hours to solve this by building Finder.
 
-What it does
+What it does: 
 Finder helps you locate parking around campus to that you can go in and out of the university stress-free. It does this by displaying where parking is available in parking lots around the university such as the engineering parking lot. Finder then displays the number of available parking spots and their exact location. Finally Finder allows you to check in to a parking and check out when you leave so that the parking availability is updated in real time.
 
-How we built it
+How we built it: 
 We built Finder to be a webapp. Hence we used Javascript along with HTML and CSS to obtain an interactive webapp that students can access through the internet.
 
-Challenges we ran into
+Challenges we ran into: 
 In the process of developing Parking Finder, we encountered several challenges that tested our problem-solving and technical skills. Some of the key hurdles we faced included:
 
 Database Management: Setting up and managing the database posed a significant challenge. We needed to design a robust database structure to efficiently store and retrieve parking-related information while ensuring data integrity.
